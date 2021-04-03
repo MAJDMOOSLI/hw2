@@ -94,17 +94,6 @@
            h2{
            	text-align: center;
            }
-
-
-           <script src="js/script.js"></script>
-           <script>
-var coll = document.getElementsByClassName('list');
-mybutton = document.querySelector('button');
-mybutton.onclick = function (){
-	coll.classList.toggle('show');
-};
-
-           </script>
 </style>
 	<title></title>
 </head>
