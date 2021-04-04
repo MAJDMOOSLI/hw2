@@ -1,103 +1,68 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<style type="text/css">
+<style type="text/css">
+    * {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
 
-    	*{
-    		margin: 0;
-    		padding: 0;
-    	}
 
-    	.navbar-header{
-    		background-color: gray;
-    		height: 30px;
-    		padding: 20px 25px;
-    		border: 3px solid black;
-    	}
+@media (min-width: 576px) {
+    .navbar-expand-md .navbar-toggler,
+    .navbar-expand-md .navbar-collapse {
+        display: none !important;
+    }
+    .nav-item{
+        display: none;
+    }
+    .examples__content{
+        width: 500px;
+    }
+}
+.container2 {
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+    border: 1px solid #000;
 
-    	.our_menu{
-    		text-align: center;
-    		margin: 3%;
-    	}
-    	.navbar-toggle{
-    		position: relative;
-    		float: right;
-    		background-color: transparent;
-    		border: 1px solid black;
-    		border-radius: 4px; 
-    		padding: 4px 9px;
-    		outline: 0;
+}
+.navbar {
+    font-size: 30px;
+    color: black;
+   
+    padding: 50px 0;
+    
+    width: 100%;
+   
+    background-color:gray;  
+   
+}
+.title {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.examples {
+    margin-top: 200px;
 
-    	}
-    	
-    	.navbar-toggle .icon-bar{
-    		display: block;
-    		width: 22px;
-    		height: 2px;
-    		border-radius: 1px;
-    		text-decoration: none;
-    	}
-      
-        @media(min-width: 768px){
-        	.navbar-toggle{
-        		display: none;
-        	}	
-        }
+}
+.examples__item {
+    background: transparent;
+    color: #000;
+    margin-bottom: 30px;
+   
+}
+.exs__content {
+    margin-left: 90px; 
+    border: 1px solid #000;
+}
+.examples__title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.nav-item {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0;
+  
+}
 
-        .icon-bar{
-        	 width: 35px;
-             height: 5px;
-             background-color: black;
-             margin: 6px 0; 	
-        }
-
-        .title{
-        	font-size: 25px;
-        }
-
-        .list{
-        	text-align: center;
-        	display: none;
-            }
-
-        .show{
-        	display: block;
-        }
-
-        ul li {
-        	border: 1px solid black;
-        	padding: 20px 50px;
-
-        }
-
-        .active, .navbar-toggle:hover {
-               background-color: #555;
-           }
-
-        a{
-           	text-decoration: none;
-           	color: black;
-           	font-size: 22px;
-            }
-
-        li:hover{
-           	 background-color: #555;
-             }
-
-           .defin{ 
-           	background-color: gray;
-           	margin: auto;
-           	width: 95%;
-           	padding: 1%;
-           }
-
-           h2{
-           	text-align: center;
-           }
 </style>
-	<title></title>
-</head>
-<body>
-
-</body>
-</html>
